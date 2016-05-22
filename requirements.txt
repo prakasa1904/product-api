@@ -6,3 +6,5 @@ django-socket-server==0.0.4
 django-socketio==0.3.9
 django-websocket-redis==0.4.6
 djangorestframework==3.3.3
+MySQL-python==1.2.3
+whitenoise==2.0.6
