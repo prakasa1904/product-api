@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 REST_FRAMEWORK = {
     	'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAdminUser',),
 	'DEFAULT_FILTER_BACKENDS': ('rest_framework.filters.DjangoFilterBackend',),
+	'TEST_REQUEST_DEFAULT_FORMAT': 'json',
     	'PAGE_SIZE': 10
 }
 
