@@ -8,13 +8,13 @@
 <li>Access API Backend : https://apiproduk.herokuapp.com/api-auth/login/
   <ul>
     <li>Username : prakasa</li>
-    <li>Password : admin</li>
+    <li>Password : administrator</li>
   </ul>
 </li>
 <li>Access UIX CMS Backend : https://apiproduk.herokuapp.com/admin/
   <ul>
     <li>Username : prakasa</li>
-    <li>Password : admin</li>
+    <li>Password : administrator</li>
   </ul>
 </li>
 </ul>
