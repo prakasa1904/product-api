@@ -3,7 +3,21 @@
 <h5>Website : http://www.terpusat.com</h5>
 
 <p>Adalah simple API untuk menampilkan data produk, dengan disertai filter. Selain juga menampilkan data kategori yang disusun secara hirarki.</p>
-<p>Demo Apps : https://apiproduk.herokuapp.com/ (Progress)</p>
+<p>Demo Apps : https://apiproduk.herokuapp.com/</p>
+<ul>
+<li>Access API Backend : https://apiproduk.herokuapp.com/api-auth/login/
+  <ul>
+    <li>Username : prakasa</li>
+    <li>Password : admin</li>
+  </ul>
+</li>
+<li>Access UIX CMS Backend : https://apiproduk.herokuapp.com/admin/
+  <ul>
+    <li>Username : prakasa</li>
+    <li>Password : admin</li>
+  </ul>
+</li>
+</ul>
 <p>Unit Test Apps : (Progress)</p>
 
 
