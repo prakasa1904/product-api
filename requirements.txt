@@ -9,3 +9,4 @@ django-websocket-redis==0.4.6
 djangorestframework==3.3.3
 MySQL-python==1.2.3
 whitenoise==2.0.6
+gunicorn==0.14.2
