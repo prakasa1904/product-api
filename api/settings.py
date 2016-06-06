@@ -86,14 +86,15 @@ WSGI_APPLICATION = 'api.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 '''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -104,7 +105,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-'''
+
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
 
@@ -138,7 +139,7 @@ USE_L10N = True
 USE_TZ = True
 
 # Update database configuration with $DATABASE_URL.
-db_from_env = dj_database_url.config(conn_max_age=500)
+db_from_env = dj_database_url.config(default='postgres://fczwhlntixlyxs:5Kn_novJC_NFnUt1d1G7HOqhbY@ec2-54-243-199-161.compute-1.amazonaws.com:5432/d2o0t0381d7qmc', conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()

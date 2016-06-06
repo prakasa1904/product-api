@@ -22,7 +22,7 @@ class Color(models.Model):
 
 class Category(models.Model):
 	name  = models.CharField(verbose_name='Category Name', max_length=255, unique=True, default='Uncategorized')
-	parent = models.ForeignKey('self', related_name='subcategory_set', null = True)
+	parent = models.ForeignKey('self', null=True, blank=True, related_name='subcategory_set')
 
 	class Meta:
 		verbose_name = 'Category'
